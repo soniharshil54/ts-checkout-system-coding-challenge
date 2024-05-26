@@ -1,7 +1,7 @@
 import { Checkout } from './services/Checkout';
 import { pricingRules } from './services/pricingRulesConfig';
 
-const co = new Checkout(pricingRules);
+const co = new Checkout();
 co.scan('atv');
 co.scan('atv');
 co.scan('atv');

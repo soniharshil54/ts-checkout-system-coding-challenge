@@ -5,7 +5,7 @@ describe('Checkout', () => {
   let co;
 
   beforeEach(() => {
-    co = new Checkout(pricingRules);
+    co = new Checkout();
   });
 
   test('Total expected: $249.00', () => {
