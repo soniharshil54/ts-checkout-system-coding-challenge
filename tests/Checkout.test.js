@@ -1,5 +1,4 @@
 const { Checkout } = require('../build/services/Checkout');
-const { pricingRules } = require('../build/services/pricingRulesConfig');
 
 describe('Checkout', () => {
   let co;

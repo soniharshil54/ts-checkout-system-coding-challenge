@@ -1,5 +1,4 @@
 import { Checkout } from './services/Checkout';
-import { pricingRules } from './services/pricingRulesConfig';
 
 const co = new Checkout();
 co.scan('atv');
